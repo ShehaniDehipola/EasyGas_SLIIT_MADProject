@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shopOwnerProfile">
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:text="@string/btnUpdate" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btnUpdate"
+        android:layout_alignRight="@id/btnUpdate"
+        android:layout_marginHorizontal="100dp"
+
+
+        android:background="@drawable/edit_text_background"
+        android:text="@string/btnDelete" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/app_back"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/txtShopOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtShopOwner"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/app_back"
+        android:text="@string/username"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/app_back"
+        android:text="@string/prompt_email"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/app_back"
+        android:text="@string/address"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/app_back"
+        android:text="@string/city"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCity"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/app_back"
+        android:text="@string/contactnumber"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtContactNo"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Map View"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/txtS_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtName"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/txtS_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtEmail"
+        android:layout_marginLeft="150dp"
+        android:text="kamal@gmail.com" />
+
+    <TextView
+        android:id="@+id/txtS_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtAddress"
+        android:layout_marginLeft="150dp"
+        android:text="234A , 2nd Street\n colombo 06" />
+
+    <TextView
+        android:id="@+id/txtS_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtCity"
+        android:layout_marginLeft="150dp"
+        android:text="colombo" />
+
+    <TextView
+        android:id="@+id/txtS_contactno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtContactNo"
+        android:layout_marginLeft="150dp"
+        android:text="0778574962" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:backgroundTint="@color/app_back"
+        android:contentDescription="Add a new item"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+
+</RelativeLayout>
+
