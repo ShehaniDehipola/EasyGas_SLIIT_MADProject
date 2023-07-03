@@ -1,8 +1,8 @@
 # EasyGas_SLIIT_MADProject
 Members:
-Group Leader - Dehipola H. M. S. N (IT21291678)
-Member 2 - Ranasinghe N. N (IT21293726)
-Member 3 - Weerasinghe H (IT21229848)
+Group Leader - Dehipola H. M. S. N (IT21291678) | 
+Member 2 - Ranasinghe N. N (IT21293726) | 
+Member 3 - Weerasinghe H (IT21229848) |
 Member 4 - Jenojan P (IT21355714)
 
 Sri Lanka has faced a severe economic disaster, leading to long lines for fuel, lack of basic necessities, and long queues for cooking gas. Waiting in lines for cooking gas can be time-wasting, so it is important to use this mobile application.
