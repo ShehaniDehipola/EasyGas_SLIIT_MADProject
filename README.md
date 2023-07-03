@@ -5,3 +5,8 @@ Our objective of this app is people will be able to reserve an appointment to pi
 We can mention user-friendly and responsive interfaces, push notifications that can be targeted to each user, and a feedback system to get customers’ reviews, feedback, and suggestions as some of the main features of this app.
 For the development of this project, we are using the Kotlin programming language along with Android Studio and Firebase as the database.
 
+Members:
+Group Leader - Dehipola H. M. S. N (IT21291678)
+Member 2 - Ranasinghe N. N (IT21293726)
+Member 3 - Weerasinghe H (IT21229848)
+Member 4 - Jenojan P (IT21355714)
